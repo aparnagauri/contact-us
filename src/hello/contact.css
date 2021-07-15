@@ -1,0 +1,110 @@
+.canvas-whole{
+    width: 100vw;
+    height: 100vh;
+    background: #f7f7f7;
+    display:flex;
+}
+
+.canvas-left-part{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas-right-part{
+    width: 50%;
+    height: 100%;
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-right{
+    
+    height: fit-content;
+}
+
+.reach-us-at{
+    font-size:55px ;
+    font-weight: 700;
+    color: #474394;
+    margin-bottom: 25px;
+}
+
+.email-box{
+    display: flex;
+    
+    align-items: center;
+    color: rgba(0,0,0,.5);
+    margin-bottom: 15px;
+}
+
+.email-content{
+    margin-left: 20px;
+}
+
+.input-box{
+    width: 50%;;
+    height: 5vh;
+    border-radius: 5px;
+    background: rgba( 153,151,212,.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-message-box{
+    width: 100%;
+    height: 15vh;
+    background: rgba( 153,151,212,.2);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.name-title{
+    color: rgba(0,0,0,.5);
+}
+
+.submit-btn{
+    background: #474394;
+    margin-top: 20px;
+    width: fit-content;
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+@media (max-width:900px){
+    .canvas-left-part{
+        display: none;
+    }
+}
+.canvas-right-part{
+    justify-content: center;
+    width: 100%;
+
+}
+
+.inside-right{
+    width: 450px;
+}
+
+@media (max-width:500px){
+    .inside-right{
+        width: 100%;
+
+    }
+}
+.input-box{
+    width: 100%;
+}
+.input-message-box{
+    width: 100%;
+}
